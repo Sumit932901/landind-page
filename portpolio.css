@@ -1,0 +1,158 @@
+
+body {
+    /* background-color: rgb(121, 105, 231); */
+    background-color: hotpink;
+}
+
+nav {
+   
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav ul li {
+    
+
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+nav ul li:hover {
+    color: red;
+    font-size: large;
+
+}
+
+.a {
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.a h1 {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+
+
+
+.a h1:hover{
+    color: chartreuse;
+}
+
+
+.a p {
+    color:black;
+    line-height: 30px;
+}
+.a p:hover{
+    color:goldenrod;
+    
+    
+   
+
+}
+
+.a b {
+    background-color: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.a b:hover{
+    background-color: blue;
+    color: yellow;
+
+}
+
+.c {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.c img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    /* transform: translateX(-50%); */
+}
+.c img:hover{
+    background-image: url(sumit.jpg.jpg);
+    background-size: cover;
+    
+}
+.button{
+    width: 250px;
+    height: 40px;
+    /* background-color: white; */
+    background-color:chartreuse;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    
+    /* display: inline-block; */
+    margin: 25px 0;
+    border-radius: 5px;
+    border-color: chartreuse;
+
+    
+}
+.button:hover{
+    background-color: chartreuse;
+    color: red;
+
+}
+.car{
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    top: 60%;
+
+}
+.car p{
+    color: darkred;
+    font-size: large;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    top:140% ;
+    
+    
+    margin-inline-start: 20px;
+    margin-inline-end: 10px;
+}
+.car p:hover{
+    color: black;
+    font-size: xx-large;
+    
+}
+.n{
+    height:300px;
+    width:400px;
+    position: absolute;
+    left: 30%;
+    bottom:40%;
+    top: 110%;
+}

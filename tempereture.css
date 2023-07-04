@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: magenta;
+    /* background-color:green; */
+}
+.con{
+    max-width: 450px;
+    background-color: green;
+    border-radius: 8px;
+   box-shadow: 0px 0px 15px 3px rgba(0,0,0,0);
+   font-family: sans-serif;
+   padding: 20px;
+}
+.con:hover{
+    background-color: palevioletred;
+}
+.tit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+h1{
+    color: white;
+    letter-spacing: 2px;
+}
+#celcius,#fahrenheit,#kelvin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+input{
+    flex: 5px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px 0 0 8px;
+    padding: 0 10px;
+}
+.button{
+    margin-top: 25px;
+    text-align: center;
+}
+.button button{
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight:600 ;
+    cursor: pointer;
+    transition: 0.3s;
+
+
+}.button button:hover{
+    background-color: darkgreen;
+    color: blanchedalmond;
+}
